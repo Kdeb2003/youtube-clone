@@ -1,15 +1,11 @@
-/* VideoPlayerPage.css */
-
-/* Container styles */
 .container {
     display: flex;
     padding: 20px;
     height: calc(100vh - 100px);
-    overflow-y: auto; /* Use auto to enable vertical scrollbar only when needed */
-    overflow-x: hidden; /* Hide the horizontal scrollbar */
+    overflow-y: auto; 
+    overflow-x: hidden;
   }
-  
-  /* Player styles */
+
   .player {
     flex: 1;
     margin-right: 20px;
@@ -17,8 +13,7 @@
     top: 100px;
     left: 50px;
   }
-  
-  /* Text container styles */
+
   .text-container {
     color: white;
     font-size: 18px;
@@ -292,8 +287,7 @@
     opacity: 0.5;
     border-radius: 10px;
   }
-  
-  /* Image styles */
+
   .image {
     width: 40px;
     height: 40px;
@@ -302,8 +296,7 @@
     top: 530px;
     left: 30px;
   }
-  
-  /* Button styles */
+
   .button {
     background-color: #272a2c;
     color: white;
@@ -339,8 +332,7 @@
     font-size: 20px;
     color: #ffffff;
   }
-  
-  /* Subscribe button styles */
+
   .subscribe-button {
     background-color: #ffffff;
     color: black;
@@ -359,8 +351,7 @@
     background-color: #2e3133;
     color: white;
   }
-  
-  /* Share button styles */
+
   .share-button {
     background-color: #272a2c;
     color: white;
@@ -381,7 +372,6 @@
     font-size: 20px;
   }
   
-  /* Hover style */
   .hover {
     background-color: #c5cacc;
   }
@@ -418,10 +408,10 @@
     left: 80px;
     width: 770px;
     border-bottom: 2px solid #83898b;
-    padding: 5px; /* Adjust padding for better appearance */
+    padding: 5px;
     font-size: 12px;
-    outline: none; /* Remove outline when focused */
-    border-radius: 0; /* Optional: Remove border-radius for a straight line */
+    outline: none; 
+    border-radius: 0;
     color: #ffffff;
   }
   .comment-button {
