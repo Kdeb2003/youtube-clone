@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './NavBar.css'; // Import the CSS file
+import './NavBar.css';
 import { FaHome, FaPlay, FaUser, FaHistory, FaVideo, FaClock, FaChevronDown, FaBolt, FaShoppingBag, FaFilm, FaMusic, FaBroadcastTower, FaPodcast, FaCog, FaFlag, FaChevronRight } from 'react-icons/fa';
 
 const NavBar = () => {
@@ -38,11 +38,10 @@ const NavBar = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   useEffect(() => {
-    setHoveredIndex(null); // Reset hovered index when the location changes
+    setHoveredIndex(null); 
   }, [location]);
 
   return (
-    // Only render NavBar if it's the home page
     isHomePage && (
       <div className="navbar-container">
         <style>
