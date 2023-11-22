@@ -1,4 +1,3 @@
-// App.js
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -14,7 +13,7 @@ import YourVideos from './pages/YourVideos';
 import WatchLater from './pages/WatchLater';
 import VideoPlayerPage from './pages/VideoPlayerPage/VideoPlayerPage';
 
-import './App.css'; // Import the CSS file
+import './App.css'; 
 
 const App = () => {
   return (
