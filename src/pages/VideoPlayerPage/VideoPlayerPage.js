@@ -1,11 +1,10 @@
-// VideoPlayerPage.js
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import ReactPlayer from 'react-player';
 import { AiOutlineLike, AiOutlineDislike, AiFillLike, AiFillDislike } from 'react-icons/ai';
 import { FaShare, FaSort } from 'react-icons/fa';
 import SideCards from '../../components/SideCards/SideCards';
-import './VideoPlayerPage.css'; // Import the CSS file
+import './VideoPlayerPage.css';
 
 const VideoPlayerPage = () => {
   const { videoId } = useParams();
