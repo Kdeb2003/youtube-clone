@@ -1,9 +1,7 @@
-// SearchBar.js
-
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faMicrophone } from '@fortawesome/free-solid-svg-icons';
-import './SearchBar.css'; // Import the CSS file
+import './SearchBar.css'; 
 
 const SearchBar = () => {
   return (
