@@ -1,4 +1,3 @@
-// SideCards.js
 import React from 'react';
 import './SideCards.css';
 
