@@ -1,9 +1,7 @@
-// TopNavBar.js
-
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import SearchBar from '../SearchBar/SearchBar';
-import './TopNavBar.css'; // Import the CSS file
+import './TopNavBar.css'; 
 import {
   AiOutlineGoogle,
   AiOutlineLogout,
@@ -93,9 +91,7 @@ const TopNavBar = () => {
             <AiOutlineGoogle id="iconStyle" />
             <p>Google Account</p>
           </div>
-          {/* ... (repeat for other scroll components) */}
           <div id="lineStyle1"></div>
-          {/* ... (repeat for other line styles) */}
         </div>
       )}
     </div>
