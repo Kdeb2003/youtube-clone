@@ -1,0 +1,25 @@
+/* App.css */
+
+body {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.navbar-container {
+  width: 200px;
+  overflow-y: auto;
+  height: calc(100vh - 100px);
+  scrollbar-width: thin;
+  scrollbar-color: #83898b #272a2c;
+}
+
+.main-content {
+  margin-left: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+}

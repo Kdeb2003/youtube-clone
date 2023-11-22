@@ -1,0 +1,38 @@
+/* SearchBar.css */
+
+.search-bar-container {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .search-input {
+    width: 600px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #2e3133;
+    background-color: black;
+    color: white;
+    /* Text color */
+    /* border: none; */
+    /* outline: none; */
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: white;
+  }
+  
+  .microphone-icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) translateX(50%);
+    cursor: pointer;
+    color: white;
+  }
+  

@@ -1,0 +1,167 @@
+/* TopNavBar.css */
+
+#topNavBar {
+  background-color: #000000;
+  padding: 10px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#logoContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  width: 200px;
+  transform: translateY(-25%);
+}
+
+#searchBarContainer {
+  position: absolute;
+  left: 220%;
+  transform: translateY(-20%);
+  top:0;
+}
+
+#iconsContainer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  top: 5%;
+  gap: 20px;
+}
+
+.iconSpacing {
+  margin-right: 30px;
+}
+
+#newComponents {
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 58%;
+  transform: translate(-50%, -50%);
+}
+
+.componentSpacing {
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  position: relative;
+}
+
+.componentSpacing:hover {
+  background-color: #83898b;
+  border-radius: 10px;
+}
+
+#transparentRect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #525658;
+  border-radius: 10px;
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: -1;
+}
+
+#chevronRight {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#blackWindow {
+  position: fixed;
+  top: 53%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+  width: 260px;
+  height: 700px;
+  background-color: #2e3133;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: white;
+  border-radius: 10px;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+#lineStyle,
+#lineStyle1,
+#lineStyle2,
+#lineStyle3,
+#lineStyle4 {
+  position: absolute;
+  width: 100%;
+  height: 0.7px;
+  background-color: #83898b;
+}
+
+#profileImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#nameText {
+  font-size: 17px;
+  position: absolute;
+  top: 6px;
+  left: 70px;
+}
+
+#emailText {
+  font-size: 15px;
+  position: absolute;
+  top: 30px;
+  left: 70px;
+}
+
+#button {
+  font-size: 14px;
+  font-weight: bold;
+  color: #4297d0;
+  cursor: pointer;
+  position: absolute;
+  top: 55px;
+  left: 70px;
+}
+
+#iconStyle {
+  margin-right: 10px;
+}
+
+#iconStyleLeft {
+  margin-right: 10px;
+  color: white;
+}
+
+.scrollComponent {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 1px;
+}
