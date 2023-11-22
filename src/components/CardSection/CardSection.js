@@ -1,16 +1,15 @@
-// CardSection.js
 
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import './CardSection.css'; // Import the CSS file
+import './CardSection.css'; 
 
 const CardSection = () => {
   const location = useLocation();
   const navigate = useNavigate();
-  const isHomePage = location.pathname === '/'; // Adjust the path as needed
+  const isHomePage = location.pathname === '/'; 
 
   if (!isHomePage) {
-    return null; // Do not render CardSection for non-home pages
+    return null; 
   }
 
   const cardTexts = [
